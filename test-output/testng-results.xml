@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-31T20:25:45 IST" name="Default suite" finished-at="2022-10-31T20:26:03 IST" duration-ms="17873">
+    <groups>
+    </groups>
+    <test started-at="2022-10-31T20:25:45 IST" name="Default test" finished-at="2022-10-31T20:26:03 IST" duration-ms="17873">
+      <class name="test.SamlpleTest">
+        <test-method is-config="true" signature="configure()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:45 IST" name="configure" finished-at="2022-10-31T20:25:46 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:46 IST" name="launchBrowser" finished-at="2022-10-31T20:25:53 IST" duration-ms="6860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Test1()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:53 IST" name="Test1" finished-at="2022-10-31T20:25:53 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="logResult(org.testng.ITestResult)[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:53 IST" name="logResult" finished-at="2022-10-31T20:25:53 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=SamlpleTest.Test1()[pri:0, instance:test.SamlpleTest@1aa7ecca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResult -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:53 IST" name="launchBrowser" finished-at="2022-10-31T20:25:56 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Test3()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:56 IST" name="Test3" finished-at="2022-10-31T20:25:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="logResult(org.testng.ITestResult)[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:56 IST" name="logResult" finished-at="2022-10-31T20:25:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=SamlpleTest.Test3()[pri:0, instance:test.SamlpleTest@1aa7ecca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResult -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:25:56 IST" name="launchBrowser" finished-at="2022-10-31T20:26:01 IST" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Test5()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:26:01 IST" name="Test5" finished-at="2022-10-31T20:26:02 IST" duration-ms="1026" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method test.SamlpleTest.Test5() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method test.SamlpleTest.Test5() didn't finish within the time-out 1000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method is-config="true" signature="logResult(org.testng.ITestResult)[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:26:02 IST" name="logResult" finished-at="2022-10-31T20:26:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test5 status=FAILURE method=SamlpleTest.Test5()[pri:0, instance:test.SamlpleTest@1aa7ecca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResult -->
+        <test-method is-config="true" signature="clearData()[pri:0, instance:test.SamlpleTest@1aa7ecca]" started-at="2022-10-31T20:26:02 IST" name="clearData" finished-at="2022-10-31T20:26:03 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+      </class> <!-- test.SamlpleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
